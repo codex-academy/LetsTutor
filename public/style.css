@@ -1,0 +1,30 @@
+body {
+    background-color: dodgerblue;
+}
+
+.container{
+    background-color: white;
+    width : 80%;
+    margin : auto;
+    padding : 1em;
+    font-family: "Arial"
+}
+
+label {
+    font-weight: bold;
+    width : 10em;
+    display: inline-block;
+
+}
+
+input[type='text']{
+    padding : 0.25em;
+}
+
+input[type='submit']{
+    margin : 0.5em;
+}
+
+.menu {
+    margin-bottom: 1em;
+}

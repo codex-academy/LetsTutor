@@ -1,0 +1,22 @@
+<h2>Subjects</h2>
+
+<a href="/subjects/add">Add subject</a>
+
+<hr>
+
+<table>
+    <tr>
+        <th>Name</th>
+    </tr>
+    {{#each subjects}}
+    <tr>
+        <td>{{name}}</td>
+        <td>
+            <form class="" action="/subjects/delete/{{name}}" method="post">
+                <input type="submit" name="delete" value="Delete">
+            </form>
+        </td>
+    </tr>
+
+    {{/each}}
+</table>
