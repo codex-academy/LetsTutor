@@ -2,7 +2,7 @@
 
 > LetsTutor - Capture subjects and tutors that can tutor those subjects.
 
-A step by step introduction to [ExpressJS](expressjs.com).
+A step by step introduction to creating Web applications with [ExpressJS](expressjs.com).
 
 Using:
 
